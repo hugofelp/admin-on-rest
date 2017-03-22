@@ -35,10 +35,11 @@ export class ReferenceField extends Component {
         return (
             <Link style={elStyle} to={linkToRecord(`${rootPath}/${reference}`, get(record, source))}>
                 {React.cloneElement(children, {
-                    record: referenceRecord,
-                    resource: reference,
                     allowEmpty,
                     basePath,
+                    record: referenceRecord,
+                    resource: reference,
+                    translateChoice: false,
                 })}
             </Link>
         );
