@@ -34,8 +34,8 @@
         "react-dom": "~16.3.0"
     },
     "dependencies": {
-        "ra-core": "file:../ra-core/package.json",
+        "ra-core": "file:../ra-core",
         "ra-language-english": "^2.3.0",
-        "ra-ui-materialui": "file:../ra-ui-materialui/package.json"
+        "ra-ui-materialui": "file:../ra-ui-materialui"
     }
 }
